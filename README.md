@@ -101,15 +101,15 @@ spec:
   - type: Resource
     resource:
       name: cpu
-        target:
-          type: Utilization
-          averageUtilization: 80
+      target:
+        type: Utilization
+        averageUtilization: 80
   - type: Resource
     resource:
       name: memory
-        target:
-          type: AverageValue
-          averageValue: 200Mi
+      target:
+        type: AverageValue
+        averageValue: 200Mi
 ```
 
 Create the HPA:
